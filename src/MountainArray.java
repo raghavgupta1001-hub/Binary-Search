@@ -23,7 +23,7 @@ public class MountainArray {
         //in the end, start == end and pointing to the largest no because of the two checks above
         //start and end are always tying to find max element in the above two checks
         //hence, when they are pointing to just one element, that is the maximum one thai is what the checks say
-        //more elaboration : at every point of time for strat and end, they have the best possible ans till that time
+        //more elaboration : at every point of time for start and end, they have the best possible ans till that time
         //and if we are saying that only one item is remaining, hence cuz of above lne that is the best possible ans
       return start;// or return end as both are=
     }
